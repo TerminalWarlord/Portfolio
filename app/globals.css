@@ -8,7 +8,9 @@
   --link_hover: #7ad1d4;
 
 }
-
+.link:hover{
+  color: var(--link_hover);
+}
 .custom_cursor:hover {
   cursor: url('/images/bombola.png') 16 16, auto;
 }
