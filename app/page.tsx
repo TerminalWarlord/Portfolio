@@ -4,10 +4,10 @@ import RightSidebar from "@/components/sidebar/right";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen flex relative">
+    <div className="w-screen h-screen flex relative bg-slate-900">
       <LeftSideBar />
       <RightSidebar/>
-      {/* <Overlay/> */}
+      <Overlay/>
     </div>
   )
 }

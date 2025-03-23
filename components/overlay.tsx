@@ -22,13 +22,13 @@ const Overlay = () => {
     return (
         <div className="absolute h-screen w-screen z-0">
             <div
-                className="w-10 h-10 rounded-full fixed"
+                className="w-36 h-36 rounded-full fixed"
                 style={{
                     top: `${coordinates.top}px`,
                     left: `${coordinates.left}px`,
                     pointerEvents: "none",
-                    boxShadow: '0 0 250px 250px rgba(120, 120, 220, 0.04)',
-                    background: 'rgba(120, 120, 220, 0.04)'
+                    boxShadow: '0 0 300px 250px rgba(120, 150, 255, 0.05)',
+                    background: 'rgba(120, 150, 255, 0.05)'
                 }}
             >
             </div>

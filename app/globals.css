@@ -4,6 +4,13 @@
 @custom-variant dark (&:is(.dark *));
 :root {
   --font-inter: Inter, system-ui, sans-serif;
+  --primary: #CAD2EA;
+  --link_hover: #7ad1d4;
+
+}
+
+.custom_cursor:hover {
+  cursor: url('/images/bombola.png') 16 16, auto;
 }
 
 body {
