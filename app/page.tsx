@@ -1,8 +1,13 @@
-import Image from "next/image";
+import Overlay from "@/components/overlay";
+import LeftSideBar from "@/components/sidebar/left";
+import RightSidebar from "@/components/sidebar/right";
 
 export default function Home() {
   return (
-   
-    <p>Hello world</p>
+    <div className="w-screen h-screen flex relative">
+      <LeftSideBar />
+      <RightSidebar/>
+      {/* <Overlay/> */}
+    </div>
   )
 }
