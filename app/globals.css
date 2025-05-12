@@ -8,6 +8,9 @@
   --link_hover: #7ad1d4;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 .link:hover{
   color: var(--link_hover);
 }

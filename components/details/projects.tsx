@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div id='projects' className=''>
       <Card
-        description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dignissimos accusantium quod. Cumque voluptatum a, quibusdam nam iste, officia tempora odit sequi sit hic sapiente perferendis assumenda, harum ut molestias.'
+        description='A web application to track programming contests from platforms like Codeforces, CodeChef, and LeetCode. Users can view upcoming contests, filter them by platform, and bookmark contests for future reference.'
         imagePath='/images/contest-tracker.png'
         role='Contest Tracker'
         links={[

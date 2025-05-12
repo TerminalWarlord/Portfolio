@@ -50,7 +50,7 @@ const Card = ({
                         return <Link key={link.url} href={link.url} className='text-slate-200 hover:text-[var(--link_hover)]'><p className='flex space-x-2 text-sm  justify-center items-center my-1'><LinkIcon size={13} /><span>{link.title}</span></p></Link>
                     })}
                 </div>}
-                {stacks && stacks.length && <div className='flex flex-wrap text-center space-x-2 my-1'>
+                {stacks && stacks.length>0 && <div className='flex flex-wrap text-center space-x-2 my-1'>
                     {stacks.map(stack => {
                         return <p key={stack} className='px-3 py-1.5 my-1.5 rounded-2xl bg-green-200/10 text-sm text-cyan-300'>{stack}</p>
                     })}
