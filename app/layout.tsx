@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} bg-slate-500`}>
+    <html lang="en" className={`${inter.variable} bg-slate-900`}>
       <body>
         {children}
       </body>
